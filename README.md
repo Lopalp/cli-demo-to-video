@@ -14,3 +14,14 @@ Companion application for your Counter-Strike demos.
 ## License
 
 [MIT](https://github.com/akiver/cs-demo-manager/blob/main/LICENSE)
+
+## CLI usage
+
+The CLI provides a `video` command to convert demo files into videos.
+
+```bash
+csdm video path/to/demo.dem --output-folder path/to/output
+```
+
+You can also pass a directory containing multiple `.dem` files. The command
+verifies HLAE and FFmpeg are installed before starting the encoding process.
