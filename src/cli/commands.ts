@@ -4,6 +4,7 @@ import { DownloadFaceitCommand } from './commands/download-faceit-command';
 import { HelpCommand } from './commands/help-command';
 import { XlsxCommand } from './commands/xlsx-command';
 import { JsonCommand } from './commands/json-command';
+import { VideoCommand } from './commands/video-command';
 
 export const commands = {
   [AnalyzeCommand.Name]: AnalyzeCommand,
@@ -11,5 +12,6 @@ export const commands = {
   [DownloadValveCommand.Name]: DownloadValveCommand,
   [HelpCommand.Name]: HelpCommand,
   [JsonCommand.Name]: JsonCommand,
+  [VideoCommand.Name]: VideoCommand,
   [XlsxCommand.Name]: XlsxCommand,
 };
