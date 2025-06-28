@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker compose -f docker-compose.yml stop
+echo "No services to stop"
