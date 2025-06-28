@@ -108,7 +108,7 @@
     "motion": "12.15.0",
     "navigation-api-types": "0.6.1",
     "node-stream-zip": "1.15.0",
-    "pg": "8.16.0",
+    "better-sqlite3": "8.6.0",
     "prettier": "3.5.3",
     "react": "19.1.0",
     "react-day-picker": "9.7.0",

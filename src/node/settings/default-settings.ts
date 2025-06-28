@@ -12,11 +12,11 @@ export const defaultSettings: Settings = {
   schemaVersion: CURRENT_SCHEMA_VERSION,
   autoDownloadUpdates: true,
   database: {
-    hostname: '127.0.0.1',
-    port: 5432,
-    username: 'postgres',
-    password: 'password',
-    database: 'csdm',
+    hostname: '',
+    port: 0,
+    username: '',
+    password: '',
+    database: 'csdm.sqlite',
   },
   folders: [],
   demos: {

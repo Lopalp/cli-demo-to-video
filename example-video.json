@@ -1,0 +1,38 @@
+{
+  "checksum": "1234567890abcdef",
+  "demoPath": "path/to/demo.dem",
+  "mapName": "de_inferno",
+  "game": "CSGO",
+  "tickrate": 64,
+  "recordingSystem": "CounterStrike",
+  "recordingOutput": "Video",
+  "encoderSoftware": "FFmpeg",
+  "framerate": 30,
+  "width": 1280,
+  "height": 720,
+  "closeGameAfterRecording": true,
+  "concatenateSequences": false,
+  "ffmpegSettings": {
+    "audioBitrate": 256,
+    "constantRateFactor": 23,
+    "videoContainer": "AVI",
+    "videoCodec": "libx264",
+    "audioCodec": "libmp3lame",
+    "inputParameters": "",
+    "outputParameters": ""
+  },
+  "outputFolderPath": "output",
+  "sequences": [
+    {
+      "number": 1,
+      "startTick": 0,
+      "endTick": 10000,
+      "showXRay": true,
+      "showOnlyDeathNotices": true,
+      "playersOptions": [],
+      "cameras": [],
+      "playerVoicesEnabled": true,
+      "deathNoticesDuration": 5
+    }
+  ]
+}
